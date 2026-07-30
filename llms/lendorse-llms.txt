@@ -1,0 +1,44 @@
+# Lendorse
+
+> Lendorse GmbH is a Berlin-based education-finance company that funds international
+> master's students in Europe through Income Share Agreements (ISAs) rather than
+> traditional credit-scored loans. Students receive EUR 3,000-20,000 for tuition,
+> visa deposits, relocation and living costs, and repay a fixed 6-12% share of gross
+> monthly income for 12-60 months once they earn above a EUR 2,500/month salary floor,
+> capped at 2.3x the funded amount. No collateral, co-signer or credit check is required.
+
+## Note for agents
+
+Lendorse publishes **no public API, developer portal, SDKs or machine-readable
+specifications** as of 2026-07-19. There is no `/.well-known/` discovery surface,
+no `api.` or `docs.` host, and no public GitHub organization. This entry exists for
+company discovery only; there is nothing to integrate with programmatically.
+Applications are taken through a hosted web flow at lendorseapply.com.
+
+## Company
+
+- [Website](https://lendorse.com/): Product overview and eligibility.
+- [How it works](https://lendorse.com/how-it-works): ISA mechanics, rates, salary floor, repayment cap, eligible countries.
+- [Apply](https://lendorseapply.com/eligibility): Hosted eligibility and application flow.
+- [Contact](https://lendorse.com/contact): Support and general enquiries (contact@lendorse.com).
+- [Team](https://lendorse.com/team): Leadership.
+- [Press](https://lendorse.com/press): Coverage and funding announcements.
+- [Careers](https://lendorse.com/careers): Open roles.
+- [Imprint](https://lendorse.com/imprint): Lendorse GmbH, Torstrasse 105, 10119 Berlin, Germany. HRB 274286 B.
+
+## Legal
+
+- [Terms of Service](https://lendorse.com/terms)
+- [Privacy Policy](https://lendorse.com/privacypolicy)
+
+## Coverage
+
+Universities in Austria, Belgium, France (HEC, INSEAD), Germany, Italy,
+Spain (ESADE), Sweden (SSE) and Switzerland (HSG). Master's programmes
+(MSc, MBA) only, full-time, age 18+, admission letter and B2 English required.
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/lendorse/refs/heads/main/apis.yml): APIs.json profile.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/lendorse/refs/heads/main/security/lendorse-domain-security.yml): TLS/HSTS/DNSSEC/CAA/SPF/DMARC probe.
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/lendorse/refs/heads/main/well-known/lendorse-well-known.yml): recorded 404s for the discovery surface.

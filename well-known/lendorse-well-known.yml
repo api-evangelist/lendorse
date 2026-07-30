@@ -1,0 +1,48 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of Lendorse web hosts
+note: >-
+  Lendorse publishes no /.well-known/ discovery surface. Every path below was
+  probed live and returned 404. Recorded so re-runs do not re-probe blindly.
+  No WellKnown or SecurityTxt pointer is wired in apis.yml because no document
+  was found.
+hosts:
+- host: https://lendorse.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://lendorseapply.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+subdomains_probed:
+- host: api.lendorse.com
+  dns: NXDOMAIN
+- host: docs.lendorse.com
+  dns: NXDOMAIN
+- host: developer.lendorse.com
+  dns: NXDOMAIN
+- host: status.lendorse.com
+  dns: NXDOMAIN
+- host: trust.lendorse.com
+  dns: NXDOMAIN
+- host: blog.lendorse.com
+  dns: NXDOMAIN
+- host: app.lendorse.com
+  dns: 35.158.87.123
