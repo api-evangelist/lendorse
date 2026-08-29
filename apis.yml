@@ -13,6 +13,17 @@ description: Lendorse GmbH is a Berlin-based education-finance company that fund
   the Techstars and ABN AMRO Future of Finance Accelerator, and raised EUR 1.75M co-led by
   LUMO Labs and Soulmates Ventures. Lendorse publishes no public API, SDKs or developer
   portal as of July 2026; this profile is a company record rather than an API profile.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
