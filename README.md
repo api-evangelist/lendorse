@@ -64,19 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lendorse GmbH is a Berlin-based education-finance company that funds international master's students studying in Europe through Income Share Agreements (ISAs) instead of traditional credit-scored loans. Students receive between EUR 3,000 and EUR 20,000 toward tuition, visa deposits, relocation and living costs, then repay a fixed 6-12% share of gross monthly income for 12 to 60 months once they earn above a EUR 2,500 monthly salary floor, with total repayment capped at 2.3x the funded amount.
+Lendorse GmbH is a Berlin-based education-finance company that funds international master's students studying in Europe through Income Share Agreements (ISAs) instead of traditional credit-scored loans. Students receive between EUR 3,000 and EUR 20,000 toward tuition, visa deposits, relocation and living costs, then repay a fixed 6-12% share of gross monthly income for 12 to 60 months once they earn above a EUR 2,500 monthly salary floor, with total repayment capped at 2.3x the funded amount. No collateral, co-signer, parental guarantor or credit check is required, which opens funding to students from developing and emerging markets who are normally excluded. Lendorse also provides mentorship, CV review, mock interviews and industry introductions. It covers universities in Austria, Belgium, France, Germany, Italy, Spain, Sweden and Switzerland, went through the Techstars and ABN AMRO Future of Finance Accelerator, and raised EUR 1.75M co-led by LUMO Labs and Soulmates Ventures. Lendorse publishes no public API, SDKs or developer portal as of July 2026; this profile is a company record rather than an API profile.
 
-No collateral, co-signer, parental guarantor or credit check is required. Lendorse also provides mentorship, CV review, mock interviews and industry introductions, and covers universities in Austria, Belgium, France (HEC, INSEAD), Germany, Italy, Spain (ESADE), Sweden (SSE) and Switzerland (HSG).
+**Areas:** Company · Financial Services · Fintech · Lending · Education · Student Finance · Income Share Agreements · Financial Inclusion · Germany · Europe
 
-Backed by: techstars — https://lendorse.com/
+## Lendorse on APIs.io
 
-## API surface
+Everything profiled for Lendorse is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lendorse/](https://apis.io/providers/lendorse/)** — or go straight to one of the APIs or properties below.
 
-Lendorse publishes **no public API, SDKs, developer portal or machine-readable specifications** as of 2026-07-19. There is no `/.well-known/` discovery surface, no `api.`/`docs.` host, and no public GitHub organization. This repository is a company profile, not an API profile.
+### Published properties
 
-## Artifacts
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- `apis.yml` — APIs.json 0.20 company profile
-- `security/lendorse-domain-security.yml` — TLS/HSTS/DNSSEC/CAA/SPF/DMARC probe
-- `well-known/lendorse-well-known.yml` — recorded `/.well-known/` probe results (all 404)
-- `llms/lendorse-llms.txt` — agent-readable company summary
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lendorse Domain Security](https://apis.io/security/lendorse/lendorse-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lendorse.com/)
+- [Sign up](https://lendorseapply.com/eligibility)
+- [Support](https://lendorse.com/contact)
+- [Terms of service](https://lendorse.com/terms)
+- [Privacy policy](https://lendorse.com/privacypolicy)
+
+## API Evangelist rating
+
+**Kin Score 12.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lendorse/](https://apis.io/providers/lendorse/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lendorse: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lendorse/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
